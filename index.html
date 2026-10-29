@@ -104,6 +104,14 @@
   .wins b{font-family:var(--serif);font-weight:500;font-size:28px;color:var(--accent);letter-spacing:-.02em;display:block;line-height:1.1}
   .wins p{margin:4px 0 0}
 
+  .speak{margin-top:16px;background:#fff;border:1px solid var(--line);border-radius:20px;padding:40px;display:grid;grid-template-columns:220px 1fr;gap:32px}
+  .speak-head h3{font-family:var(--serif);font-weight:500;font-size:24px;margin-top:8px;letter-spacing:-.01em}
+  .talks{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+  .talk{border-left:2px solid var(--qe);padding-left:18px}
+  .talk .when{font-size:13px;font-weight:700;color:var(--mute);letter-spacing:.04em}
+  .talk b{display:block;font-family:var(--serif);font-weight:500;font-size:19px;line-height:1.25;margin:6px 0 8px}
+  .talk p{font-size:15px;color:var(--ink-2);margin-bottom:6px}
+  @media (max-width:900px){.speak{grid-template-columns:1fr;gap:20px;padding:28px}.talks{grid-template-columns:1fr}}
   .photo{aspect-ratio:3/2;object-fit:cover;width:100%;height:100%}
 
   /* moment.us */
@@ -188,7 +196,7 @@
     <div class="stat"><b>16</b><span>years in quality engineering</span></div>
     <div class="stat"><b>25</b><span>people in the largest org I've led</span></div>
     <div class="stat"><b>1–2</b><span>day release cycles, down from 5–10</span></div>
-    <div class="stat"><b>5</b><span>things I'm building right now</span></div>
+    <div class="stat"><b>3</b><span>conference talks for audiences in the UK, US &amp; Philippines</span></div>
   </div>
 </div>
 
@@ -224,6 +232,30 @@
         </ul>
         <p style="margin-top:8px">B.S. Physiology, San Francisco State University.</p>
         <a class="link" href="https://www.linkedin.com/in/charlenegranadosin" target="_blank" rel="noopener" style="color:var(--qe)">Full history on LinkedIn ↗</a>
+      </div>
+    </div>
+    <div class="speak reveal">
+      <div class="speak-head">
+        <span class="tag" style="color:var(--qe);opacity:1">On stage</span>
+        <h3>Conference speaking</h3>
+      </div>
+      <div class="talks">
+        <div class="talk">
+          <span class="when">2018 · London</span>
+          <b>“Appium: A Better Way to Play the Game”</b>
+          <p>Appium Conference, the first conference dedicated to the Appium mobile automation project.</p>
+        </div>
+        <div class="talk">
+          <span class="when">2019 · San Francisco</span>
+          <b>“This Is What a Tester Looks Like”</b>
+          <p>TestBash San Francisco, co-presented with Charlotte Bersamin.</p>
+          <a class="link" href="https://www.ministryoftesting.com/media-sessions/this-is-what-a-tester-looks-like-charlene-granadosin-and-charlotte-bersamin" target="_blank" rel="noopener" style="color:var(--qe);font-size:14px">Watch on Ministry of Testing ↗</a>
+        </div>
+        <div class="talk">
+          <span class="when">2020 · Philippines</span>
+          <b>“This Is What a Tester Looks Like”</b>
+          <p>GDG Philippines DevFest, presented to the Google Developer Groups community.</p>
+        </div>
       </div>
     </div>
   </section>
